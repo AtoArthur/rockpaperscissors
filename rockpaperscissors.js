@@ -43,13 +43,13 @@ const getUserChoice = userInput =>{
         return 'User won!';
       }
     }
-    if(userChoice === 'paper'){
+    /*if(userChoice === 'paper'){
       if(computerChoice === 'rock'){
         return 'User won';
       }else{
         return 'Computer won!';
       }
-    }
+    }*/
     if(userChoice === 'paper'){
       if(computerChoice === 'scissors'){
         return 'You lost!';
@@ -64,13 +64,13 @@ const getUserChoice = userInput =>{
         return 'Sweet Christmas';
       }
     }
-    if(userChoice === 'scissors'){
+    /*if(userChoice === 'scissors'){
       if(computerChoice === 'paper'){
         return 'You Won!';
       }else{
         return 'Try Again';
       }
-    }
+    }*/
     if(userChoice === 'bomb'){
       return 'Straight Win!';
     }
